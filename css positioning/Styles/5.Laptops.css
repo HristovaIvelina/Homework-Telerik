@@ -1,0 +1,97 @@
+body{
+background-color:#1B1B1B;
+}
+
+section{
+width:720px;
+height:485px;
+border:1px solid #333;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+padding:10px;
+background-color:#FFF;
+}
+
+nav ul 
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}  
+
+nav ul li { 
+display:inline; 
+font-family: Arial, sans-serif;
+font-size:19px;
+}
+
+nav {text-align:center;}
+
+hr{
+color:#333;
+background-color:#333;
+height:1px;
+margin-left:10px;
+margin-right:10px;
+}
+
+li a {color: #05B0F0;}
+
+fieldset{
+display:inline-block;
+position:relative;
+width:215px;
+margin:0;
+margin-right:2px;
+padding:3px;
+border:2px solid #333;
+}
+
+legend{
+padding-left:5px;
+padding-right:8px;
+margin-left:30px;
+font: 16px/1.8 Georgia, serif;
+}
+
+img{
+float:left;
+}
+
+#laptops{
+width:460px;
+border:2px solid #333;
+padding:5px;
+padding-bottom:10px;
+float:left;
+}
+
+#laptops ul 
+{
+list-style-type:none;
+margin:2px;
+padding-left:10px;
+margin-top:15px;
+}  
+
+#laptops ul li { 
+display:inline; 
+font: 16px/1.8 Georgia, serif;
+padding-right:18px;
+}
+
+#slidebars{
+float:right;
+margin-right:10px;
+margin-top:50px;
+}
+
+#slidebars ul 
+{
+list-style-type:none;
+}  
+
+#slidebars ul li { 
+font: 20px/2 Arial, sans-serif;
+}

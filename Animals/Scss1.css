@@ -1,0 +1,34 @@
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body div {
+  margin: 15px; }
+  body div ul li {
+    display: inline-block;
+    list-style: none; }
+    body div ul li img {
+      cursor: pointer;
+      margin: 3px; }
+body #images_big {
+  position: relative;
+  margin: 0; }
+  body #images_big input[type="radio"] {
+    display: none; }
+    body #images_big input[type="radio"]:checked + .big_image {
+      opacity: 1;
+      z-index: 1;
+      visibility: visible; }
+  body #images_big .big_image {
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden;
+    display: inline-block;
+    position: absolute;
+    margin-left: 300px;
+    -webkit-transition: opacity 555ms ease-in-out;
+    -moz-transition: opacity 555ms ease-in-out;
+    -o-transition: opacity 555ms ease-in-out;
+    transition: opacity 555ms ease-in-out; }
+

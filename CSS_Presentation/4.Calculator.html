@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Calculator</title>
+		<link href="Styles/4.Calculator.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="calculator">
+			<nav>
+				<ul>
+					<li>View</li>
+					<li>Edit</li>
+					<li>Help</li>
+				</ul>
+			</nav>
+			
+			<div class="result">
+				<form>
+					<input type="text" value="8854455" />
+				</form>
+			</div>
+			
+			<div class="binary_numbers">
+				<table>
+					<tr>
+						<td>0000<br />
+							<span>63</span>
+						</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000<br />
+							<span>47</span>
+						</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000<br />
+							<span>32</span>
+						</td>
+					</tr>
+					<tr>
+						<td>0000<br />
+							<span>31</span>
+						</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000<br />
+							<span>15</span>
+						</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000<br />
+							<span>0</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="aside">
+				<form class="num_syst">
+					<ul>
+						<li>
+							<input type="radio" name="num_syst" id="Hex" value="Hex" />
+							<label for="Hex">Hex</label>
+						</li>
+						<li>
+							<input type="radio" name="num_syst" id="Dec" value="Dec" checked="checked" />
+							<label for="Dec">Dec</label>
+						</li>
+						<li>
+							<input type="radio" name="num_syst" id="Oct" value="Oct" />
+							<label for="Oct">Oct</label>
+						</li>
+						<li>
+							<input type="radio" name="num_syst" id="Bin" value="Bin" />
+							<label for="Bin">Bin</label>
+						</li>
+					</ul>
+				</form>
+				
+				
+				<form class="wordsize">
+				<ul>
+					<li>
+						<input type="radio" name="wordsize" id="Qword" value="Qword" checked="checked" />
+						<label for="Qword">Qword</label>
+					</li>
+					<li>
+						<input type="radio" name="wordsize" id="Dword" value="Dword" />
+						<label for="Dword">Dword</label>
+					</li>
+					<li>
+						<input type="radio" name="wordsize" id="Word" value="Word" />
+						<label for="Word">Word</label>
+					</li>
+					<li>
+						<input type="radio" name="wordsize" id="Byte" value="Byte" />
+						<label for="Byte">Byte</label>
+					</li>
+				</ul>
+				</form>
+			</div>
+			
+			<div class="buttons">
+				<table>
+					<tr>
+						<td><input type="button" disabled="disabled" id="empty" value="&nbsp;" /></td>
+						<td><input type="button" value="Mod"/></td>
+						<td><input type="button" disabled="disabled" class="bigger" value="A"/></td>
+						<td><input type="button" value="MC"/></td>
+						<td><input type="button" value="MR"/></td>
+						<td><input type="button" value="MS"/></td>
+						<td><input type="button" value="M+"/></td>
+						<td><input type="button" value="M-"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="&#40;"/></td>
+						<td><input type="button" value="&#41;"/></td>
+						<td><input type="button" disabled="disabled" class="bigger" value="B"/></td>
+						<td><input type="button" id="arrow" value="&#8592;"/></td>
+						<td><input type="button" value="CE"/></td>
+						<td><input type="button" value="C"/></td>
+						<td><input type="button" value="&#177;"/></td>
+						<td><input type="button" disabled="disabled" value="&#8730;"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="RoL"/></td>
+						<td><input type="button" value="RoR"/></td>
+						<td><input type="button" disabled="disabled" class="bigger" value="C"/></td>
+						<td><input type="button" class="number bigger" value="7"/></td>
+						<td><input type="button" class="number bigger" value="8"/></td>
+						<td><input type="button" class="number bigger" value="9"/></td>
+						<td><input type="button" value="/"/></td>
+						<td><input type="button" disabled="disabled" value="%"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="Or"/></td>
+						<td><input type="button" value="Xor"/></td>
+						<td><input type="button" disabled="disabled" class="bigger" value="D"/></td>
+						<td><input type="button" class="number bigger" value="4"/></td>
+						<td><input type="button" class="number bigger" value="5"/></td>
+						<td><input type="button" class="number bigger" value="6"/></td>
+						<td><input type="button" value="*"/></td>
+						<td><input type="button" disabled="disabled" value="1/&#967;"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="Lsh"/></td>
+						<td><input type="button" value="Rsh"/></td>
+						<td><input type="button" disabled="disabled" class="bigger" value="E"/></td>
+						<td><input type="button" class="number bigger" value="1"/></td>
+						<td><input type="button" class="number bigger" value="2"/></td>
+						<td><input type="button" class="number bigger" value="3"/></td>
+						<td><input type="button" value="&#45;" /></td>
+						<td rowspan="2"><input type="button" id="big" value="&#61;"/></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="Not" /></td>
+						<td><input type="button" value="And" /></td>
+						<td><input type="button" disabled="disabled" class="bigger" value="F" /></td>
+						<td colspan="2"><input type="button" class="number" id="long" value="0"/></td>
+						<td><input type="button" disabled="disabled" value="&#44;" /></td>
+						<td><input type="button" value="&#43;" /></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

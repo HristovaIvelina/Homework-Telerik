@@ -1,0 +1,14 @@
+body{
+	width:600px;
+	}
+			
+div {
+	border:2px solid #F00;
+	background: #000;
+	border-radius:60px;
+	padding-right:9%;
+	}
+
+.hidden{
+    display:none;
+    }

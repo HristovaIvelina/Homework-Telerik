@@ -1,0 +1,32 @@
+body {background-color:#A9A9A9;}
+	
+	h1 {color:#FAFAD2;
+		text-align:center;
+		font-size:2.3em;}
+	article h1 {
+		text-align:left;
+		font-size:1.5em;}
+	nav li {
+		font-size:1.2em;
+		font-weight:bold;
+		text-align:center;
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		}
+	li:last-child {
+		text-decoration:underline; 
+		color:#FFFFFF;}
+	.current {background-color:#D3D3D3;}
+	nav a {
+		text-decoration:none; 
+		color:#FFF;
+		}
+	footer {text-align:center;}
+	section footer {
+		text-align:left;
+		font-size:0.8em;}
+	footer a {
+		text-decoration:none; 
+		color:#000;
+		}

@@ -1,0 +1,149 @@
+			.calculator{
+				border: 1px solid black;
+				width:453px;
+				height:391px;
+				color:#1E395B;
+				background: -webkit-linear-gradient(#F0F0F0 0, #D9E4F1 100px);
+				background: -moz-linear-gradient(#F0F0F0 0, #D9E4F1 100px);
+				background: -o-linear-gradient(#F0F0F0 0, #D9E4F1 100px);
+				background: linear-gradient(#F0F0F0 0, #D9E4F1 100px);
+				}
+			
+			nav {
+				border-bottom:1px solid #8E9CAD;
+				height:25px;
+				background: -webkit-linear-gradient(#FEFEFF 0, #E5EAF5 34%, #D4DBED 35%, #E1E6F6 100%);
+				background: -moz-linear-gradient(#FEFEFF 0, #E5EAF5 34%, #D4DBED 35%, #E1E6F6 100%);
+				background: -o-linear-gradient(#FEFEFF 0, #E5EAF5 34%, #D4DBED 35%, #E1E6F6 100%);
+				background: linear-gradient(#FEFEFF 0, #E5EAF5 34%, #D4DBED 35%, #E1E6F6 100%);
+				}
+			
+			nav ul li {
+				display:inline;
+				list-style-type:none;
+				padding:0 10px 1px 1px;
+				font:13px "Segoe UI", sans-serif;
+				
+				}
+			
+			nav ul li:first-letter{
+				text-decoration:underline;
+				}
+			
+			form ul li {
+				list-style-type:none;
+				}
+			
+			ul {
+				margin:0; padding:5px;
+				}
+			
+			.result input{
+				border:1px solid #8E9CAD;
+				border-radius: 3px;
+				margin: 12px 12px 3px 12px;
+				width:427px;
+				height:51px;
+				font-size:25px;
+				font-family: Consolas, monospace;
+				text-align:right;
+				background: -webkit-linear-gradient(#E6EFFB, #FFFFFF);
+				background: -moz-linear-gradient(#E6EFFB, #FFFFFF);
+				background: -o-linear-gradient(#E6EFFB, #FFFFFF);
+				background: linear-gradient(#E6EFFB, #FFFFFF);
+				}
+				
+			.binary_numbers td {
+				vertical-align:top;
+				padding:0px 17px 0px 4px;
+				margin:0px;
+				font: 15px/1em Consolas, monospace;
+				}
+			.binary_numbers {
+				border: 1px solid #8696AA;
+				border-radius: 3px;
+				margin: 3px 12px 3px 12px;
+				}
+			
+			.aside {
+				float:left;
+				}
+			
+			.num_syst, .wordsize {
+				border: 1px solid #8696AA;
+				border-radius: 3px;
+				margin: 4px 2px 5px 12px;
+				font: 12px "Segoe UI", sans-serif;
+				width:80px;
+				height:99px
+				}
+			
+			label {
+				position:relative;
+				bottom: 0.4ex;
+				}
+			
+			[type=button] {
+				height:29.5px;
+				width:37px;
+				border: 1px solid #8797AA;
+				border-radius: 3px;
+				color:#1E395B;
+				background: -webkit-linear-gradient(#F0F6FB 0, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+				background: -moz-linear-gradient(#F0F6FB 0, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+				background: -o-linear-gradient(#F0F6FB 0, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+				background: linear-gradient(#F0F6FB 0, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+				line-height: 25px;
+				font-family:"Segoe UI", sans-serif;
+				}
+			
+			label, input:not(:disabled) { 
+				cursor: pointer; 
+				}
+			
+			[type=button]:hover:not(:disabled){
+				border-color: #F5D50F;
+				background: -webkit-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+				background: -moz-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+				background: -o-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+				background: linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+				box-shadow: 0 0 0 1px #FFFFFF inset;
+			}
+			
+			.buttons td {
+				padding:2px;
+				}
+			
+			.bigger, #long, #arrow {
+				font-size:17px;
+				}
+			
+			#empty {
+				border-color: #8797AA;
+				}
+			
+			span {
+				color:#666;
+				}
+			
+			.number{
+				background: -webkit-linear-gradient(#F7FBFF 0, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+				background: -moz-linear-gradient(#F7FBFF 0, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+				background: -o-linear-gradient(#F7FBFF 0, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+				background: linear-gradient(#F7FBFF 0, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+				font-size: 15px;
+				}
+			
+			[disabled] {
+				border-color: #B4C2D1;
+				background: #D9E4F1;
+				color:#1E395B;
+				}
+			
+			#long {
+				width:80px;
+				}
+			
+			#big {
+				height:65px;
+				}

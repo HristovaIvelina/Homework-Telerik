@@ -1,0 +1,37 @@
+#wrapper {
+	background-color:#595959;
+	width:450px;
+	font-family:Arial,sasn-serif;
+	}
+th {
+	text-align:left;
+	color:#B8B8B8;
+	font-weight:normal;
+	font-size:25px;
+	padding:10px 5px 18px 3px
+	}
+td {
+	padding:8px 1px 8px 3px;
+	font-size:16px;
+	}
+.first_column {
+	color:#ECE4E4;
+	vertical-align:top;
+	width:130px;
+	font-style:italic;
+	}
+a {
+	text-decoration:none;
+	color:#F0EDC1;
+	}
+#supp_info {color:#F00;}
+#status {color:#F18124;}
+.info {color:#958E8E;}
+.circle{
+	float:left;
+	background-color:#71B47A;
+	border-radius: 15px;
+	width:15px;
+	height:15px;
+	margin-right:5px;
+	}

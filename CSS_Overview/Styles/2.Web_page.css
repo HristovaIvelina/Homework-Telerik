@@ -1,0 +1,42 @@
+	table {
+		font:16px sans-serif;
+		border: 1px solid #BBB99D;
+        border-spacing: 0;
+		}
+			
+		tr:nth-child(2n) {background-color:#EDECD8;}
+		tr:nth-child(2n+1) {background-color:#FFF;}	
+		th {
+			background-color:#5AC006;
+			color:#FFF;
+			font-weight:normal;
+			text-align:left;
+		    border-bottom: 1px solid #27710A;}
+		th + th {
+            border-left: 1px solid #358709;
+            box-shadow: -1px 0 0 #75C530;
+        }
+        td + td { border-left: 1px solid #BBB99D; }
+		td:first-child {width:160px;}
+		td:nth-child(2) {width:130px;}
+		td:nth-child(3) {width:140px;}
+		td:nth-child(4) {width:90px;}
+		th, td {padding:6px;}
+		#germany:before {
+			content: url(../Images/flag_ger.jpg);
+			position: relative;
+			bottom: -.5ex;
+			margin-right: .4em;
+			}
+		.mexico:before {
+			content: url(../Images/flag_mex.jpg);
+			position: relative;
+			bottom: -.5ex;
+			margin-right: .4em;
+			}
+		#uk:before {
+			content: url(../Images/flag_eng.jpg);
+			position: relative;
+			bottom: -.5ex;
+			margin-right: .4em;
+			}

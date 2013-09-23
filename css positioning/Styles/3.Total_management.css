@@ -1,0 +1,75 @@
+body{background-color:#0C0C0C;}
+
+#login_page{
+width:645px;
+background-color:#3B3B3B;
+border:1px solid #806850;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+h1{
+color:#FDD416;
+font-size:30px;
+font-weight:normal;
+margin-top:5px;
+margin-bottom:15px;
+}
+
+p{
+color:#A9A9A9;
+font: 12px/1.5 Verdana, sans-serif;
+margin:0;
+}
+
+#template_world{
+color:#F8F8F8;
+}
+
+#link_in_p{
+text-decoration:none;
+color:#A9A9A9;
+}
+
+#about_tm{
+padding: 10px 50px 10px 10px;
+}
+
+#reg_form{
+padding:20px 10px 20px 55px;;
+background: url("../images/monitor.png") no-repeat #343434;
+box-shadow:0 -8px 10px #292929 inset;
+-webkit-border-radius: 8px 8px 0 0;
+-moz-border-radius: 8px 8px 0 0;
+border-radius: 8px 8px 0 0;
+}
+
+::-webkit-input-placeholder { color:#000; }
+::-moz-placeholder { color:#000; }
+input:-moz-placeholder { color:#000; }
+
+label{
+color:#FFF;
+font-weight:bold;
+font-size:21px;
+margin-left:15px;
+}
+
+input{
+margin-left:20px;
+padding-left:10px;
+padding-bottom:4px;
+width:130px;
+}
+
+#submit_button{
+border: none;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+background:url("../images/button_go.png") no-repeat transparent;
+height: 29px;
+width: 56px;
+color:#FFF;
+}
