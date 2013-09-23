@@ -1,0 +1,63 @@
+@mixin animation($speed)
+{
+   -webkit-transition: opacity $speed ease-in-out;
+   -moz-transition: opacity $speed ease-in-out;
+   -o-transition: opacity $speed ease-in-out;
+   transition: opacity $speed ease-in-out;
+}
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body
+{
+	div 
+	{
+		margin:15px;
+		ul
+		{
+			li{
+				display:inline-block;
+				list-style:none;
+
+					img{
+						cursor: pointer;
+						margin:3px;
+					}
+			}
+			
+		}
+	}
+
+	#images_big {
+		position: relative;
+		margin:0;
+
+		input[type="radio"]{
+			display: none;
+		
+			&:checked + .big_image {
+				opacity: 1;
+				z-index:1;
+				visibility: visible;
+			}
+		} 
+
+		.big_image {
+			opacity: 0;
+			z-index: -1;
+			visibility:hidden;
+			display: inline-block;
+			position: absolute;
+			margin-left:300px;
+
+			@include animation(555ms);
+
+			
+} 
+
+	}
+}
